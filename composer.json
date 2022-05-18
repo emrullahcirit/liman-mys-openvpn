@@ -1,0 +1,23 @@
+{
+	"name": "limanmys/OpenVPN",
+	"description": "OpenVPN",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Administrator",
+			"email": "administrator@liman.dev"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"files": [
+			"app/Helpers/Helpers.php"
+		],
+		"psr-4": {
+			"App\\": "app"
+		},
+		"classmap": [
+			"app"
+		]
+	}
+}

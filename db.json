@@ -1,0 +1,14 @@
+{
+    "name": "OpenVPN",
+    "publisher": "Administrator",
+    "version": "0.0.1",
+    "version_code": 1,
+    "database": [],
+    "widgets": [],
+    "language": "php",
+    "status": 0,
+    "service": "",
+    "supportedLiman": "1.9",
+    "support": "administrator@liman.dev",
+    "icon": ""
+}
