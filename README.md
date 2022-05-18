@@ -8,5 +8,6 @@ Takım arkadaşım Altay Şimşek ile birlikte Havelsan Ekspres Hackathonunda ge
 
 ## Sosyal Medya
 
-Altay Şimşek - [GitHub](github.com/altaysimsek) [Twitter](twitter.com/altitans)
-Muhammed Emrullah Cirit - [Twitter](twitter.com/Iamemrullah)
+Altay Şimşek - [GitHub](https://github.com/altaysimsek) [Twitter](https://twitter.com/altitans)
+</br>
+Muhammed Emrullah Cirit - [Twitter](https://twitter.com/Iamemrullah)
