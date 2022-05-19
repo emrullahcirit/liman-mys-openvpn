@@ -7,18 +7,13 @@ class InstallationController
 {
 	public function install()
 	{
-		// shell_exec('apt update');
+
 		Command::runSudo("echo ' ' > log.txt");
 		Command::runSudo('wget https://git.io/vpn -O openvpn-ubuntu-install.sh');
 		Command::runSudo('wget https://gist.githubusercontent.com/emrullahcirit/67bff3886f719407688abedbea44b16a/raw/bdfb579774014092b85b28f3a632859aa528efd9/openvpn-create-cert.sh');
-	//	Command::runSudo("echo 'wget1 calisti' >> log.txt");
-		//sleep(5);
+
 		Command::runSudo('chmod +x openvpn-ubuntu-install.sh openvpn-create-cert.sh');
-		//sleep(5);
-	//	Command::runSudo("echo 'chmod calisti' >> log.txt");
-		//Command::runSudo("su");
-		Command::runSudo("~/./openvpn-ubuntu-install.sh < asd.txt > log.txt");
-		//Command::runSudo("echo 'kurulum basladi' >> log.txt");
+		Command::runSudo("~/./openvpn-ubuntu-install.sh < asd.txt > log.txt");<
 		return respond('Successfully installed', 200);
 	}
 
