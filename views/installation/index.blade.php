@@ -1,1 +1,0 @@
-<h1>Merhaba installation</h1>

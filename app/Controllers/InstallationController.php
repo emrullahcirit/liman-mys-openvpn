@@ -13,7 +13,7 @@ class InstallationController
 		Command::runSudo('wget https://gist.githubusercontent.com/emrullahcirit/67bff3886f719407688abedbea44b16a/raw/bdfb579774014092b85b28f3a632859aa528efd9/openvpn-create-cert.sh');
 
 		Command::runSudo('chmod +x openvpn-ubuntu-install.sh openvpn-create-cert.sh');
-		Command::runSudo("~/./openvpn-ubuntu-install.sh < asd.txt > log.txt");<
+		Command::runSudo("~/./openvpn-ubuntu-install.sh < asd.txt > log.txt");
 		return respond('Successfully installed', 200);
 	}
 
